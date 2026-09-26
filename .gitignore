@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+
+outputs/association_transactions.csv
+outputs/refined_association_transactions.csv

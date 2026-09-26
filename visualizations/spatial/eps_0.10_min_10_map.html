@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7b038b289ae5391e6336553fb0e33e84 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7b038b289ae5391e6336553fb0e33e84" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7b038b289ae5391e6336553fb0e33e84 = L.map(
+                "map_7b038b289ae5391e6336553fb0e33e84",
+                {
+                    center: [41.84586438222634, -87.66732803745639],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6e2817af75bad4ec64765d2f19ea60de = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6e2817af75bad4ec64765d2f19ea60de.addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+            var circle_marker_d67d4d4dc9f3c6cab9beed9782dcbefd = L.circleMarker(
+                [41.88933250346757, -87.62895701250069],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_300ef56bd73ac1d290041a8437bb92a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43e019496702d6cf32d7157220d49579 = $(`<div id="html_43e019496702d6cf32d7157220d49579" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 9<br><b>Crime Records:</b> 18179<br><b>Top Crime Type:</b> THEFT</div>`)[0];
+                popup_300ef56bd73ac1d290041a8437bb92a9.setContent(html_43e019496702d6cf32d7157220d49579);
+            
+        
+
+        circle_marker_d67d4d4dc9f3c6cab9beed9782dcbefd.bindPopup(popup_300ef56bd73ac1d290041a8437bb92a9)
+        ;
+
+        
+    
+    
+            var circle_marker_ab12fd76d5b3b533c8f86540deb57614 = L.circleMarker(
+                [41.893515697914296, -87.74335722927908],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_9f6249b516f39d655933594bf08ef241 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67533965f8ad8312b4d3df87c1f2f830 = $(`<div id="html_67533965f8ad8312b4d3df87c1f2f830" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 11<br><b>Crime Records:</b> 13068<br><b>Top Crime Type:</b> BATTERY</div>`)[0];
+                popup_9f6249b516f39d655933594bf08ef241.setContent(html_67533965f8ad8312b4d3df87c1f2f830);
+            
+        
+
+        circle_marker_ab12fd76d5b3b533c8f86540deb57614.bindPopup(popup_9f6249b516f39d655933594bf08ef241)
+        ;
+
+        
+    
+    
+            var circle_marker_531506910f9c2b7d1abeba780e54fe44 = L.circleMarker(
+                [41.89643054145995, -87.66932972506201],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_1d2701ff20771ec2c79137f999a85d84 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d5f0ee5fd6525f2302fd8174aeb322d = $(`<div id="html_5d5f0ee5fd6525f2302fd8174aeb322d" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 29<br><b>Crime Records:</b> 13047<br><b>Top Crime Type:</b> THEFT</div>`)[0];
+                popup_1d2701ff20771ec2c79137f999a85d84.setContent(html_5d5f0ee5fd6525f2302fd8174aeb322d);
+            
+        
+
+        circle_marker_531506910f9c2b7d1abeba780e54fe44.bindPopup(popup_1d2701ff20771ec2c79137f999a85d84)
+        ;
+
+        
+    
+    
+            var circle_marker_5e6d98f118212fca7124e1e0346bdcfd = L.circleMarker(
+                [41.870960297574086, -87.70662144451711],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_9d18c1aa160680a3d551d9787c3a3379 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79df88dab55421f9be3715c067b55add = $(`<div id="html_79df88dab55421f9be3715c067b55add" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 1<br><b>Crime Records:</b> 10340<br><b>Top Crime Type:</b> BATTERY</div>`)[0];
+                popup_9d18c1aa160680a3d551d9787c3a3379.setContent(html_79df88dab55421f9be3715c067b55add);
+            
+        
+
+        circle_marker_5e6d98f118212fca7124e1e0346bdcfd.bindPopup(popup_9d18c1aa160680a3d551d9787c3a3379)
+        ;
+
+        
+    
+    
+            var circle_marker_691f6a96317b27a812a6f085ea046bdd = L.circleMarker(
+                [41.94855464373925, -87.65118645771469],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_53b2ea41738cae53589a1697b08fe34a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f571379dae53f4d2c570625345147135 = $(`<div id="html_f571379dae53f4d2c570625345147135" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 13<br><b>Crime Records:</b> 8997<br><b>Top Crime Type:</b> THEFT</div>`)[0];
+                popup_53b2ea41738cae53589a1697b08fe34a.setContent(html_f571379dae53f4d2c570625345147135);
+            
+        
+
+        circle_marker_691f6a96317b27a812a6f085ea046bdd.bindPopup(popup_53b2ea41738cae53589a1697b08fe34a)
+        ;
+
+        
+    
+    
+            var circle_marker_52c2f4cbf85730a6d8f6e11f654cec5f = L.circleMarker(
+                [41.7615308519165, -87.57203110428013],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_e3afd2f73940a665258d7a6d42bb58e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e68b69344170da2e19ad2a22b75349ee = $(`<div id="html_e68b69344170da2e19ad2a22b75349ee" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 15<br><b>Crime Records:</b> 8946<br><b>Top Crime Type:</b> BATTERY</div>`)[0];
+                popup_e3afd2f73940a665258d7a6d42bb58e7.setContent(html_e68b69344170da2e19ad2a22b75349ee);
+            
+        
+
+        circle_marker_52c2f4cbf85730a6d8f6e11f654cec5f.bindPopup(popup_e3afd2f73940a665258d7a6d42bb58e7)
+        ;
+
+        
+    
+    
+            var circle_marker_57460caed89a86922939c2a71e078c36 = L.circleMarker(
+                [41.75680898926204, -87.61702439272669],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_970da95b2e3c5f09c07f667394e08ad0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f28483f3adfc9776151e99b61d9559e = $(`<div id="html_2f28483f3adfc9776151e99b61d9559e" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 2<br><b>Crime Records:</b> 7369<br><b>Top Crime Type:</b> BATTERY</div>`)[0];
+                popup_970da95b2e3c5f09c07f667394e08ad0.setContent(html_2f28483f3adfc9776151e99b61d9559e);
+            
+        
+
+        circle_marker_57460caed89a86922939c2a71e078c36.bindPopup(popup_970da95b2e3c5f09c07f667394e08ad0)
+        ;
+
+        
+    
+    
+            var circle_marker_5e23fa2f25b729991fbc305cdaa60ce9 = L.circleMarker(
+                [41.802328252787206, -87.60118399338981],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_70c38f1dde5312846bd1c97b9dd47887 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1b3c11b3b2ad463126696a70faac7a4 = $(`<div id="html_e1b3c11b3b2ad463126696a70faac7a4" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 20<br><b>Crime Records:</b> 4220<br><b>Top Crime Type:</b> THEFT</div>`)[0];
+                popup_70c38f1dde5312846bd1c97b9dd47887.setContent(html_e1b3c11b3b2ad463126696a70faac7a4);
+            
+        
+
+        circle_marker_5e23fa2f25b729991fbc305cdaa60ce9.bindPopup(popup_70c38f1dde5312846bd1c97b9dd47887)
+        ;
+
+        
+    
+    
+            var circle_marker_8886f9fdfc5a2111794f98fec0fd11a8 = L.circleMarker(
+                [41.75019783640813, -87.65619776331282],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_c5b848d8b8beee24614f471e263c3064 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d61036f52f20a63fcdcb7946e179219 = $(`<div id="html_8d61036f52f20a63fcdcb7946e179219" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 17<br><b>Crime Records:</b> 3641<br><b>Top Crime Type:</b> BATTERY</div>`)[0];
+                popup_c5b848d8b8beee24614f471e263c3064.setContent(html_8d61036f52f20a63fcdcb7946e179219);
+            
+        
+
+        circle_marker_8886f9fdfc5a2111794f98fec0fd11a8.bindPopup(popup_c5b848d8b8beee24614f471e263c3064)
+        ;
+
+        
+    
+    
+            var circle_marker_3ba26432e9dc727cb6eda1c5e41fc583 = L.circleMarker(
+                [41.86093401218214, -87.65623960205973],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_638b8f8e1f9fdb119be08f98321191cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2166fd532caa94128a5c7ad253a3c10e = $(`<div id="html_2166fd532caa94128a5c7ad253a3c10e" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 31<br><b>Crime Records:</b> 3047<br><b>Top Crime Type:</b> THEFT</div>`)[0];
+                popup_638b8f8e1f9fdb119be08f98321191cc.setContent(html_2166fd532caa94128a5c7ad253a3c10e);
+            
+        
+
+        circle_marker_3ba26432e9dc727cb6eda1c5e41fc583.bindPopup(popup_638b8f8e1f9fdb119be08f98321191cc)
+        ;
+
+        
+    
+    
+            var circle_marker_f57c888541ccc76b9090a0a2a928ca0e = L.circleMarker(
+                [41.77870596602182, -87.61087275579733],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_cddb99465f2d02326f88fcf753f64a93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93e4f1334a230ff312ae5f1e26650245 = $(`<div id="html_93e4f1334a230ff312ae5f1e26650245" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 16<br><b>Crime Records:</b> 2842<br><b>Top Crime Type:</b> BATTERY</div>`)[0];
+                popup_cddb99465f2d02326f88fcf753f64a93.setContent(html_93e4f1334a230ff312ae5f1e26650245);
+            
+        
+
+        circle_marker_f57c888541ccc76b9090a0a2a928ca0e.bindPopup(popup_cddb99465f2d02326f88fcf753f64a93)
+        ;
+
+        
+    
+    
+            var circle_marker_c50fc5378b6f3d6aa77ad9a5a339716c = L.circleMarker(
+                [42.01203557302301, -87.67034015992836],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_0997973c5444d3c06706beedc79014a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e6b20733229d4eef4e50cbc4bcdc931 = $(`<div id="html_1e6b20733229d4eef4e50cbc4bcdc931" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 61<br><b>Crime Records:</b> 2694<br><b>Top Crime Type:</b> THEFT</div>`)[0];
+                popup_0997973c5444d3c06706beedc79014a9.setContent(html_1e6b20733229d4eef4e50cbc4bcdc931);
+            
+        
+
+        circle_marker_c50fc5378b6f3d6aa77ad9a5a339716c.bindPopup(popup_0997973c5444d3c06706beedc79014a9)
+        ;
+
+        
+    
+    
+            var circle_marker_fe28012f4e855331f5d7c5193851c180 = L.circleMarker(
+                [41.849339981444054, -87.71614825824184],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_8561c42d14d7da898f81d7759747c3ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f3c99f03d8deedbb70b71bd76e68e74 = $(`<div id="html_0f3c99f03d8deedbb70b71bd76e68e74" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 30<br><b>Crime Records:</b> 2547<br><b>Top Crime Type:</b> BATTERY</div>`)[0];
+                popup_8561c42d14d7da898f81d7759747c3ee.setContent(html_0f3c99f03d8deedbb70b71bd76e68e74);
+            
+        
+
+        circle_marker_fe28012f4e855331f5d7c5193851c180.bindPopup(popup_8561c42d14d7da898f81d7759747c3ee)
+        ;
+
+        
+    
+    
+            var circle_marker_8a628b1913892b7df0344fb6886f817c = L.circleMarker(
+                [41.779573800824856, -87.69566744274636],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_8f90b99c7a30272b065087ed14aaa133 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2b7fd95a6308470edb87afc74359be3 = $(`<div id="html_a2b7fd95a6308470edb87afc74359be3" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 51<br><b>Crime Records:</b> 2535<br><b>Top Crime Type:</b> BATTERY</div>`)[0];
+                popup_8f90b99c7a30272b065087ed14aaa133.setContent(html_a2b7fd95a6308470edb87afc74359be3);
+            
+        
+
+        circle_marker_8a628b1913892b7df0344fb6886f817c.bindPopup(popup_8f90b99c7a30272b065087ed14aaa133)
+        ;
+
+        
+    
+    
+            var circle_marker_25119580c4861acabcdd9c26d729a19c = L.circleMarker(
+                [41.93518993252848, -87.71595453551055],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_42471510bde55657472301a7750e2d87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_081309d6ebfddbf03f78ceae1fea8a69 = $(`<div id="html_081309d6ebfddbf03f78ceae1fea8a69" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 65<br><b>Crime Records:</b> 1896<br><b>Top Crime Type:</b> THEFT</div>`)[0];
+                popup_42471510bde55657472301a7750e2d87.setContent(html_081309d6ebfddbf03f78ceae1fea8a69);
+            
+        
+
+        circle_marker_25119580c4861acabcdd9c26d729a19c.bindPopup(popup_42471510bde55657472301a7750e2d87)
+        ;
+
+        
+    
+    
+            var circle_marker_d4730673b4d18b2a8b067abb54d2c36a = L.circleMarker(
+                [41.82081404332221, -87.61019266324261],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_db9bdd1f92b1b45fb3f1b358dc97f49f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f445a302e8e852bdfa355a022619bc6b = $(`<div id="html_f445a302e8e852bdfa355a022619bc6b" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 40<br><b>Crime Records:</b> 1558<br><b>Top Crime Type:</b> THEFT</div>`)[0];
+                popup_db9bdd1f92b1b45fb3f1b358dc97f49f.setContent(html_f445a302e8e852bdfa355a022619bc6b);
+            
+        
+
+        circle_marker_d4730673b4d18b2a8b067abb54d2c36a.bindPopup(popup_db9bdd1f92b1b45fb3f1b358dc97f49f)
+        ;
+
+        
+    
+    
+            var circle_marker_931230b3c059289597dfd9cdcf6ef73a = L.circleMarker(
+                [41.96569877339396, -87.71611753573585],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_9246e1986b781cc08791c141b2ac5f3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c798486e9c1ab1fffd45079eef0f8168 = $(`<div id="html_c798486e9c1ab1fffd45079eef0f8168" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 5<br><b>Crime Records:</b> 1556<br><b>Top Crime Type:</b> BATTERY</div>`)[0];
+                popup_9246e1986b781cc08791c141b2ac5f3f.setContent(html_c798486e9c1ab1fffd45079eef0f8168);
+            
+        
+
+        circle_marker_931230b3c059289597dfd9cdcf6ef73a.bindPopup(popup_9246e1986b781cc08791c141b2ac5f3f)
+        ;
+
+        
+    
+    
+            var circle_marker_d039ad44caaae0d92085df58a1d1a06e = L.circleMarker(
+                [41.87981033859244, -87.73433890426048],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_5cd9c586edd8d69a42dfa6384ef14663 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c787e28176155efe777e0a62c7944324 = $(`<div id="html_c787e28176155efe777e0a62c7944324" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 42<br><b>Crime Records:</b> 1455<br><b>Top Crime Type:</b> BATTERY</div>`)[0];
+                popup_5cd9c586edd8d69a42dfa6384ef14663.setContent(html_c787e28176155efe777e0a62c7944324);
+            
+        
+
+        circle_marker_d039ad44caaae0d92085df58a1d1a06e.bindPopup(popup_5cd9c586edd8d69a42dfa6384ef14663)
+        ;
+
+        
+    
+    
+            var circle_marker_487c945777aa6467724becbaf48cf1e5 = L.circleMarker(
+                [41.771462129448324, -87.6572406582147],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_5e263ccf3ec2ccff95096ef50d71c892 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf5db7f6d5f516cc61c0d5ae5513509b = $(`<div id="html_bf5db7f6d5f516cc61c0d5ae5513509b" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 4<br><b>Crime Records:</b> 1374<br><b>Top Crime Type:</b> BATTERY</div>`)[0];
+                popup_5e263ccf3ec2ccff95096ef50d71c892.setContent(html_bf5db7f6d5f516cc61c0d5ae5513509b);
+            
+        
+
+        circle_marker_487c945777aa6467724becbaf48cf1e5.bindPopup(popup_5e263ccf3ec2ccff95096ef50d71c892)
+        ;
+
+        
+    
+    
+            var circle_marker_e41ac71c298405fd9bbef0c002179453 = L.circleMarker(
+                [41.914033364127434, -87.7115794933292],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_915bbe48d82c383df0db5e81728bbcb1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97410268d23872ce1f731ba4305fb5ef = $(`<div id="html_97410268d23872ce1f731ba4305fb5ef" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 147<br><b>Crime Records:</b> 1130<br><b>Top Crime Type:</b> THEFT</div>`)[0];
+                popup_915bbe48d82c383df0db5e81728bbcb1.setContent(html_97410268d23872ce1f731ba4305fb5ef);
+            
+        
+
+        circle_marker_e41ac71c298405fd9bbef0c002179453.bindPopup(popup_915bbe48d82c383df0db5e81728bbcb1)
+        ;
+
+        
+    
+    
+            var circle_marker_b0056cb3efb527cbb6f912e9d87ffcf5 = L.circleMarker(
+                [41.81201171379348, -87.62146290381703],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_44d674255ba230d54c2be25955a8752b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4de3da6fa22421dc46b17b24fd9525b = $(`<div id="html_e4de3da6fa22421dc46b17b24fd9525b" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 161<br><b>Crime Records:</b> 1104<br><b>Top Crime Type:</b> BATTERY</div>`)[0];
+                popup_44d674255ba230d54c2be25955a8752b.setContent(html_e4de3da6fa22421dc46b17b24fd9525b);
+            
+        
+
+        circle_marker_b0056cb3efb527cbb6f912e9d87ffcf5.bindPopup(popup_44d674255ba230d54c2be25955a8752b)
+        ;
+
+        
+    
+    
+            var circle_marker_f8fffe18454697e925ce65fb1f6cd81b = L.circleMarker(
+                [41.99675358629058, -87.6893690086974],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_f3f787aecb02de8ac26bcd3baacb5c18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a539daeda28e7f5606acf85555d88ad = $(`<div id="html_1a539daeda28e7f5606acf85555d88ad" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 194<br><b>Crime Records:</b> 998<br><b>Top Crime Type:</b> BATTERY</div>`)[0];
+                popup_f3f787aecb02de8ac26bcd3baacb5c18.setContent(html_1a539daeda28e7f5606acf85555d88ad);
+            
+        
+
+        circle_marker_f8fffe18454697e925ce65fb1f6cd81b.bindPopup(popup_f3f787aecb02de8ac26bcd3baacb5c18)
+        ;
+
+        
+    
+    
+            var circle_marker_4d32c98fb87deaf27ce9ea81d1dbb157 = L.circleMarker(
+                [41.79241313075667, -87.6627099356694],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_4954c645b90e5e7d7e1089850e3c0822 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24899309a1c753ecd809db2d49cfd8af = $(`<div id="html_24899309a1c753ecd809db2d49cfd8af" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 24<br><b>Crime Records:</b> 974<br><b>Top Crime Type:</b> BATTERY</div>`)[0];
+                popup_4954c645b90e5e7d7e1089850e3c0822.setContent(html_24899309a1c753ecd809db2d49cfd8af);
+            
+        
+
+        circle_marker_4d32c98fb87deaf27ce9ea81d1dbb157.bindPopup(popup_4954c645b90e5e7d7e1089850e3c0822)
+        ;
+
+        
+    
+    
+            var circle_marker_43420423af0b7835446714835c9932eb = L.circleMarker(
+                [41.829405952363736, -87.62020375693807],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_7f049a002baa788f86a94deebceaf4d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81224a8886d3daf14fc085b452644de5 = $(`<div id="html_81224a8886d3daf14fc085b452644de5" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 55<br><b>Crime Records:</b> 888<br><b>Top Crime Type:</b> BATTERY</div>`)[0];
+                popup_7f049a002baa788f86a94deebceaf4d4.setContent(html_81224a8886d3daf14fc085b452644de5);
+            
+        
+
+        circle_marker_43420423af0b7835446714835c9932eb.bindPopup(popup_7f049a002baa788f86a94deebceaf4d4)
+        ;
+
+        
+    
+    
+            var circle_marker_f88d6b3e058a620ec0a2e3313796eb7a = L.circleMarker(
+                [41.79225524392474, -87.6212953240513],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_84d0f4a3d80094b73b62b69a18cdd8d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6540d70ab75d7f96320d46b935fcd36f = $(`<div id="html_6540d70ab75d7f96320d46b935fcd36f" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 57<br><b>Crime Records:</b> 877<br><b>Top Crime Type:</b> BATTERY</div>`)[0];
+                popup_84d0f4a3d80094b73b62b69a18cdd8d1.setContent(html_6540d70ab75d7f96320d46b935fcd36f);
+            
+        
+
+        circle_marker_f88d6b3e058a620ec0a2e3313796eb7a.bindPopup(popup_84d0f4a3d80094b73b62b69a18cdd8d1)
+        ;
+
+        
+    
+    
+            var circle_marker_00095175cf00ac45b7fa5a5c106a80e5 = L.circleMarker(
+                [41.854244978009305, -87.62469387282093],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_543682292cd09aa67b308ba404131e14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bae0ea64e122debbbd3a82b8f6194fbd = $(`<div id="html_bae0ea64e122debbbd3a82b8f6194fbd" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 84<br><b>Crime Records:</b> 860<br><b>Top Crime Type:</b> THEFT</div>`)[0];
+                popup_543682292cd09aa67b308ba404131e14.setContent(html_bae0ea64e122debbbd3a82b8f6194fbd);
+            
+        
+
+        circle_marker_00095175cf00ac45b7fa5a5c106a80e5.bindPopup(popup_543682292cd09aa67b308ba404131e14)
+        ;
+
+        
+    
+    
+            var circle_marker_3ba2f4a72ea5825d7532e51c43d8bdaf = L.circleMarker(
+                [41.76564342583549, -87.66200473355464],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_23ebb48c6b9c94dff470d9af5559dc05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_355821c0f3d2c7bc34245d2e1be68e13 = $(`<div id="html_355821c0f3d2c7bc34245d2e1be68e13" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 28<br><b>Crime Records:</b> 851<br><b>Top Crime Type:</b> THEFT</div>`)[0];
+                popup_23ebb48c6b9c94dff470d9af5559dc05.setContent(html_355821c0f3d2c7bc34245d2e1be68e13);
+            
+        
+
+        circle_marker_3ba2f4a72ea5825d7532e51c43d8bdaf.bindPopup(popup_23ebb48c6b9c94dff470d9af5559dc05)
+        ;
+
+        
+    
+    
+            var circle_marker_d4c35d1958511313e918c69a76330085 = L.circleMarker(
+                [41.691175963208075, -87.62147234862668],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_4ea49dfb3d90110a04cd24aca8a2caaa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_befecefcbbad24159d5a378a0b2f2853 = $(`<div id="html_befecefcbbad24159d5a378a0b2f2853" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 292<br><b>Crime Records:</b> 817<br><b>Top Crime Type:</b> BATTERY</div>`)[0];
+                popup_4ea49dfb3d90110a04cd24aca8a2caaa.setContent(html_befecefcbbad24159d5a378a0b2f2853);
+            
+        
+
+        circle_marker_d4c35d1958511313e918c69a76330085.bindPopup(popup_4ea49dfb3d90110a04cd24aca8a2caaa)
+        ;
+
+        
+    
+    
+            var circle_marker_1487cc0c4b655c42891ac3daa7433409 = L.circleMarker(
+                [41.656088178335395, -87.60201454670792],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_07f98bef8b355e8741caf67906b6cd7b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf59d67f5d7acf04160c90a7e110e708 = $(`<div id="html_cf59d67f5d7acf04160c90a7e110e708" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 214<br><b>Crime Records:</b> 808<br><b>Top Crime Type:</b> BATTERY</div>`)[0];
+                popup_07f98bef8b355e8741caf67906b6cd7b.setContent(html_cf59d67f5d7acf04160c90a7e110e708);
+            
+        
+
+        circle_marker_1487cc0c4b655c42891ac3daa7433409.bindPopup(popup_07f98bef8b355e8741caf67906b6cd7b)
+        ;
+
+        
+    
+    
+            var circle_marker_388c9b896b71f7bac1eb6eaff7212a66 = L.circleMarker(
+                [41.80891472218734, -87.66731774468987],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_7b038b289ae5391e6336553fb0e33e84);
+        
+    
+        var popup_daca4ebe6776f181bed87807d8cd239f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_edc73ef37dbf62c2423bcd9918b9f359 = $(`<div id="html_edc73ef37dbf62c2423bcd9918b9f359" style="width: 100.0%; height: 100.0%;"><b>Cluster:</b> 46<br><b>Crime Records:</b> 790<br><b>Top Crime Type:</b> BATTERY</div>`)[0];
+                popup_daca4ebe6776f181bed87807d8cd239f.setContent(html_edc73ef37dbf62c2423bcd9918b9f359);
+            
+        
+
+        circle_marker_388c9b896b71f7bac1eb6eaff7212a66.bindPopup(popup_daca4ebe6776f181bed87807d8cd239f)
+        ;
+
+        
+    
+</script>
+</html>
